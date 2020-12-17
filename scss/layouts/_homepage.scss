@@ -1,0 +1,555 @@
+.kesatu {
+    height: 690px;
+    background-image: url(../Assets/Images/bagian1.jpg);
+    background-size: cover;
+    background-position: center; 
+    .text-kesatu {
+        padding: 200px 0 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    p:first-child {
+        font-size: $font-big; 
+        color: $color-contentA;
+        font-weight: 200;
+    }
+
+    p:last-child {
+        font-size: $font-norm;
+        color: $color-contentA;
+        font-weight: 200;
+        line-height: 40px;
+    }
+
+    button {
+        padding:0 0 20px 20px;
+        font-size: $font-norm;
+        font-weight: 300;
+        border: none;
+        background-color: transparent;
+        color: $color-contentA;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.bagian2 {
+    display: flex;
+    position: relative;
+    
+    .bag2-kiri {
+        width: 50%;
+        height: auto;  
+        img {
+            width: 100%;
+        }
+    }
+    
+    .bag2-kanan {
+        width: 50%;
+        height: auto;
+        img {
+            width: 100%;
+        }
+    
+        .text-bag2 {
+            position: absolute;
+            bottom: 0;
+            padding: 0 0 150px 20px;
+            box-sizing: border-box;
+            p:first-child {
+                font-size: $font-exbig;
+                color: $color-contentA;
+                font-weight: 500;
+            }
+            p:nth-child(2) {
+                width: 70%;
+                font-size: $font-norm;
+                color: $color-contentA;
+                font-weight: 300;
+                line-height: 30px;
+            }
+            button {
+                font-size: $font-norm;
+                font-weight: 200;
+                border: none;
+                background-color: transparent;
+                color: $color-contentA;
+                cursor: pointer;
+                text-decoration: underline;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.bagian3 {
+    display: flex;
+    .bag3-kiri {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    .bag3-kanan {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.bagian4 {
+    display: flex;
+    p:first-child {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 500;
+        padding-left: 20px;
+    }
+    p:nth-child(2) {
+        width: 80%;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 70px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    .bag4-kiri {
+        width: 50%;
+        height: auto;
+        background: radial-gradient(circle at top left, #47AC73, #32467B);
+        padding: 140px 0 20px 0;
+        button {
+            font-size: $font-norm;
+            font-weight: 200;
+            border: none;
+            background-color: transparent;
+            color: $color-contentA;
+            cursor: pointer;
+            text-decoration: underline;
+            padding-left: 20px;
+        }
+    }
+    .bag4-kanan {
+        width: 50%;
+        img {
+            width: 100%;
+        } 
+    }
+}
+
+.bagian5 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: $header-color;
+    .bag5-kiri {
+        width: 50%;
+        background: #001A38;
+        padding: 100px 0 20px 0;
+        p:first-child {
+            font-size: 60px;
+            color: $color-contentA;
+            font-weight: 500;
+            padding-left: 20px;
+        }
+        p:nth-child(2) {
+            width: 80%;
+            font-size: 18px;
+            color: $color-contentA;
+            font-weight: 300;
+            line-height: 40px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        p:nth-child(3) {
+            width: 80%;
+            font-size: 18px;
+            color: $color-contentA;
+            font-weight: 300;
+            line-height: 40px;
+            margin-top: 20px;
+            padding-left: 20px;
+            button {
+                font-size: $font-norm;
+                font-weight: 200;
+                border: none;
+                background-color: transparent;
+                color: $color-contentA;
+                cursor: pointer;
+                text-decoration: underline;
+                padding-left: 20px;
+            }
+        }
+    }
+    .bag5-kanan {
+        width: 50%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.bagian6 {
+    height: 690px;
+    width: 100%;
+    background-image: url(../Assets/Images/bagian6.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .bag6-text {
+        padding: 150px 0 20px 20px;
+        display: flex;
+        flex-direction: column;
+        p:first-child {
+            font-size: $font-exbig;
+            color: $color-contentA;
+            font-weight: 200;
+        }
+        p:last-child {
+            font-size: $font-norm;
+            color: $color-contentA;
+            font-weight: 200;
+            line-height: 40px;
+        }
+    }
+
+    button {
+        padding:0 0 20px 20px;
+        font-size: $font-norm;
+        font-weight: 300;
+        border: none;
+        background-color: transparent;
+        color: $color-contentA;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.bagian7 {
+    video {
+        max-width: 100%;
+        object-fit:contain;
+    }
+}
+
+.bagian8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DCDDDE;
+    padding: 70px 20px;
+
+    .bag8-kiri h2 {
+        width: 50%;
+        font-size: $size-h2;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .bag8-kanan {
+        width: 50%;
+    }
+    .bag8-kanan p {
+        width: 80%;
+        line-height: 40px;
+        font-size: $font-norm;
+        color: $color-contentB;
+    }
+
+    button {
+        padding:0 0 20px 0;
+        font-size: $font-norm;
+        font-weight: 300;
+        border: none;
+        background-color: transparent;
+        color: $color-contentB;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.bagian9 {
+    display: flex;
+    .list-baju {
+        width: 25%;
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+}
+
+.bagian10 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    .bag10-kanan {
+        width: 50%;
+        background: #DEDEDE;
+        padding: 100px 0 20px 0px;
+        p:first-child {
+            font-size: 60px;
+            color: $color-contentB;
+            font-weight: 500;
+            padding-left: 20px;
+        }
+        p:nth-child(2) {
+            width: 80%;
+            font-size: $font-norm;
+            color: $color-contentB;
+            font-weight: 300;
+            line-height: 40px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        button {
+            font-size: $font-norm;
+            font-weight: 200;
+            border: none;
+            background-color: transparent;
+            color: #000;
+            cursor: pointer;
+            text-decoration: underline;
+            padding-left: 20px;
+        }
+    }
+    .bag10-kiri {
+        width: 50%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+}
+
+.bagian11 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: $color-contentA;
+
+    .bag11-kiri {
+        width: 50%;
+        background: #325949;
+        padding: 100px 0 20px 0px;
+
+        p:first-child {
+            font-size: 60px;
+            color: #fff;
+            font-weight: 500;
+            padding-left: 20px;
+        }
+
+        p:nth-child(2) {
+            width: 80%;
+            font-size: $font-norm;
+            color: #fff;
+            font-weight: 300;
+            line-height: 20px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        button {
+            font-size: $font-norm;
+            font-weight: 200;
+            border: none;
+            background-color: transparent;
+            color: #000;
+            cursor: pointer;
+            text-decoration: underline;
+            padding-left: 20px;
+        }
+    }
+
+    .bag11-kanan {
+        width: 50%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.bagian12 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    .bag12-kanan {
+        width: 50%;
+        background: #DEDEDE;
+        padding: 100px 0 20px 0px;
+        p:first-child {
+            font-size: 40px;
+            color: $color-contentB;
+            font-weight: 500;
+            padding-left: 20px;
+        }
+        p:nth-child(2) {
+            width: 80%;
+            font-size: $font-norm;
+            color: $color-contentB;
+            font-weight: 300;
+            line-height: 30px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        button {
+            font-size: $font-norm;
+            font-weight: 200;
+            border: none;
+            background-color: transparent;
+            color: #000;
+            cursor: pointer;
+            text-decoration: underline;
+            padding-left: 20px;
+        }
+    }
+    .bag12-kiri {
+        width: 50%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.bagian13 {
+    background-color: rgb(243,243,243);
+    padding: 40px;
+
+    .service {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        button {
+            font-size: 13px;
+            font-weight: 200;
+            border: none;
+            background-color: transparent;
+            color: #000;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 10px 0;
+        }
+    }
+
+    .service-area {
+        display: flex;
+        min-height: 100px;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .service-img {
+        padding: 0 0 10px 10px;
+        width: 115px;
+        height: 115px;
+        img {
+            width:60%;
+        }
+    }
+    
+    .service-text{ 
+        p { line-height: 1.4em;
+            cursor: pointer;
+        }
+        p:first-child {
+            font-size: 20px;
+        }
+        p:nth-child(2) {
+            font-size: 12px;
+        }
+    }
+
+}
+
+.bagian14 {
+    background-color: $primary-color;
+    color: $color-contentA;
+    padding: 40px 54px;
+
+    .info-area {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .info-grid {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(4,auto);
+        list-style: none;
+        cursor: pointer;
+
+        li {
+            margin: 10px 10px 10px 0;
+        }
+    }
+
+    .info-left {
+        display: flex;
+
+        .title {
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+    }
+
+    .info-text a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .info-right {
+        text-align: right;
+
+        p {
+            padding-bottom: 15px;
+            text-align: left;
+        }
+
+        input {
+            height: 40px;
+            border: 1px solid #fff;
+            background: none;
+            border-radius: 50px 0 0 50px;
+            padding: 0 30px;
+            color: #fff;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        button {
+            height: 40px;
+            border: 1px solid #fff;
+            border-left: none;
+            background: none;
+            border-radius: 0 50px 50px 0;
+            box-sizing: border-box;
+            margin: 0;
+
+            img {
+                padding: 10px 13px 8px 10px;
+                cursor: pointer;
+                box-sizing: border-box;
+            }
+        }
+
+
+    }
+}
+
+
